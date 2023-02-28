@@ -1,5 +1,7 @@
 
+import java.lang.Math; 
 public class Lab {
+    //Lab mathClass = new Lab(); 
     /**
      * The Math class contains utility methods that can be used for calculations like exponents, rounding, random
      * number generation, etc. The point of this challenge, however, is not strictly to use the Math class - there are
@@ -20,6 +22,13 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        return 0;
+        
+         //Math.sqrt(a);
+         Math.pow(a,b); 
+         System.out.println(Math.pow(a,b)); 
+         return Math.pow(a,b); }
+        //mathClass.mathPow(a,b); 
+        //return mathClass.mathPow(a,b); }
+        //return 0; 
     }
-}
+
